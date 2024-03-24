@@ -1,0 +1,40 @@
+body{
+    background-image: url(./IMG/login.PNG);
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    background-size: cover;
+    height: 60vh;
+    border-radius: 25px;
+}
+legend{
+    text-align: center;
+    color: orangered;
+
+}
+input{
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+}
+::placeholder{
+    color: gray;
+}
+fieldset{
+    
+    margin: 150px;
+    align-items: center;
+}
+p{
+    text-align: center;
+    padding: 10px;
+}
+.all{
+    border: 1px solid orangered;
+    border-radius: 15px;
+    color: white;
+    background: orangered;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
