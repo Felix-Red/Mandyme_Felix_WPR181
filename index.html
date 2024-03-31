@@ -7,14 +7,27 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form>
-            <fieldset>
-                <legend>Login</legend>
-                <p><input type="email" placeholder="Email ID"></p>
-                <p><input type="password" placeholder="Password"></p>
-                <p><input type="checkbox" name="keep" id="keep"> <label for="keep">Keep me signed in on this device</label></p>
-                <p class="all"><a href="page2.html">login</a></p>
-            </fieldset>
-        </form>
+       <div class="main">
+            <input type="checkbox" id="chk" aria-hidden="true">
+
+                <div class="signup">
+                    <form>
+                        <label for="chk" aria-hidden="true">Sign up</label>
+                        <input type="text" name="txt" placeholder="User name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="password" name="pswd" placeholder="Password" required>
+                        <button>Sign up</button>
+                    </form>
+                </div>
+
+                <div class="login">
+                    <form>
+                        <label for="chk" aria-hidden="true">Login</label>
+                        <input type="email" name="email" placeholder="Email">
+                        <input type="password" name="pswd" placeholder="Password">
+                        <button><a href="page2.html">Login</a></button>
+                    </form>
+                </div>
+       </div>
     </body>
 </html>
